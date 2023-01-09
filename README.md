@@ -1,10 +1,16 @@
-CSE 264 – Web Systems Programming, Fall 2022
-Homwwork 7 - Set Game Project
+# Homework 7 - Set Game Project
 
-Description
+- Author: Shuang Lin
+- Email: shuanglin3359@gmail.com
+
+### CSE 264 – Web Systems Programming, Fall 2022
+
+### Description
 The completed project will implement a web application for playing the Set card game with multiple players over a network.
 
-Instructions
+### Instructions
+
+- Get node_modules from package.json
       
 1. In the repo working folder:
   Run npm init. Use the defaults except for:
