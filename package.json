@@ -1,0 +1,23 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "set game client",
+  "main": "SetGameClient.js",
+  "scripts": {
+    "start": "node SetGameClient.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE-264/set-game-project-shl224.git"
+  },
+  "author": "Shuang Lin shl224@lehigh.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSE-264/set-game-project-shl224/issues"
+  },
+  "homepage": "https://github.com/CSE-264/set-game-project-shl224#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}

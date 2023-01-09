@@ -1,0 +1,63 @@
+<!--
+Author: Shuang Lin
+Email: shl224@lehigh.edu
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Set Game</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="/js/jquery-1.8.1.min.js"></script>
+  <script src="/js/socket.io.min.js"></script>
+  <script src="/client.js"></script>
+</head>
+
+<body>
+  
+  <div>
+    <h1 id="title">Welcome to Set </h1>
+  </div>
+
+  <div id="leftSide">
+    <div class="divs">
+      <form id="form_login">
+        Username:
+        <input id="input_text" type="text">
+        <input id="input_login" type="button" value="Login">
+      </form>
+    </div>
+  
+    <div class="divs" id="div_board">
+    </div>
+  </div>
+
+  <div id="rightSide">
+    <div class="divs">
+      Commands:
+      <input id="set" type="button" value="Set">
+      <input id="add_row" type="button" value="Add Row">
+      <input id="shuffle" type="button" value="Shuffle">
+      <input id="end_game" type="button" value="End Game">
+    </div>
+  
+    <div class="divs">
+      <table id="scores">
+      </table>
+    </div>
+  
+    <div class="divs">
+      <div id="chat_box"></div>
+
+      <form id="form_chat">
+        <input id="chat_text" type="text">
+        <input id="chat_send" type="button" value="Send">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
